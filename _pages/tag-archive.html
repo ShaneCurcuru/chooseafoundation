@@ -1,0 +1,29 @@
+---
+title: "All Posts by Tags"
+excerpt: "Lists all pages by tag"
+permalink: /tags/
+layout: archive
+header:
+  overlay_image: /assets/images/delfi-de-la-rua-152121-h.jpg
+  caption: "Photo: [**Delfi de la Rua / Unsplash**](https://unsplash.com)"
+---
+
+{% include group-by-array collection=site.pages field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
+
+{% include group-by-array collection=site.documents field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

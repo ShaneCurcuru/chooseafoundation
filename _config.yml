@@ -1,0 +1,216 @@
+# chooseafoundation - theme cloned from Minimal Mistakes
+# Site Settings
+locale                   : "en"
+title                    : "Choose A Foundation"
+title_separator          : "-"
+name                     : &scname "Shane Curcuru"
+authorurl                : "http://shanecurcuru.org/"
+description              : &description "Guidance on choosing a FOSS Foundation for your open source community."
+url                      : "https://shanecurcuru.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/chooseafoundation" # the subpath of your site, e.g. "/blog"
+repository               : "ShaneCurcuru/chooseafoundation" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/headerc-unsplash-cc0.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &scid "ShaneCurcuru"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/gravatar.png" # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/ShaneCurcuru"
+    - "https://github.com/ShaneCurcuru"
+    - "https://linkedin.com/in/ShaneCurcuru"
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+
+# Site Author
+author:
+  name             : *scname
+  avatar           : "/assets/images/gravatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Helping companies and communities work better together."
+  location         : "Boston, MA"
+  email            :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : *scid
+  gitlab           :
+  google_plus      : *scid
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : *scid
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : *scid
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Collections - expose data via archive pages
+collections:
+  foundations:
+    output: true
+    excerpt: "Listing of all FOSS Foundations"
+    label: "FOSS Foundation Listings"
+    permalink: /:collection/:path
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
+  - scope:
+      path: "foundations"
+      type: foundations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

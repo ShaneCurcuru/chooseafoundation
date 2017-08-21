@@ -1,0 +1,16 @@
+# Sitewide top nav
+main:
+  - title: "Welcome"
+    url: /welcome
+  - title: "Guide Me"
+    url: /help
+  - title: "Choose A License"
+    url: https://choosealicense.org/
+  - title: "About"
+    url: /about
+  - title: "Credits"
+    url: /colophon
+  - title: "Sitemap"
+    url: /sitemap/
+  - title: "All By Tag"
+    url: /tags/

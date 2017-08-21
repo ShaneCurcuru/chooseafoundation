@@ -1,0 +1,147 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image or page.header.overlay_filter %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+    <div class="page__inner-wrap">
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        </header>
+      {% endunless %}
+      <section class="page__content" itemprop="text">
+        {% comment %} TODO: Change layout to use programmatic loops with description lookups of terms. -SC {% endcomment %}
+        <aside class="sidebar__right">
+          <nav class="toc">
+            <header><h4 class="nav__title"><i class="fa fa-book"></i> {{ toc.title | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+            <ul class="toc__menu" id="toc">
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#brand">Brand</a></li>
+              <li><a href="#governance">Governance</a></li>
+              <li><a href="#finance">Finance</a></li>
+              <li><a href="#projects">Projects Hosted</a></li>
+              <li><a href="#details">Detailed Description</a></li>
+              <li><a href="#individual">Get Involved</a>
+                <ul>
+                  <li><a href="#individual">Individuals</a></li>
+                  <li><a href="#project">Projects</a></li>
+                  <li><a href="#company">Companies</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <table>
+          <thead>
+            <tr>
+              <th id="overview">Overview </th>
+              <th id="brand">Brand </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% if page.core.url %}<p><abbr title="URL of organization homepage.">Website</abbr>: <a href="{{ page.core.url }}">{{ page.core.url }}</a></p>{% endif %}
+                {% if page.core.legalName %}<p><abbr title="The official name of the organization, e.g. the registered company name.">Legal Name</abbr>: {{ page.core.legalName }}</p>{% endif %}
+                {% if page.core.description %}<p><abbr title="Brief description of the group or organization as a whole.">Description</abbr>: {{ page.core.description }}</p>{% endif %}
+                {% if page.core.location %}<p><abbr title="Country of incorporation or headquarters.">Location</abbr>: {{ page.core.location }}</p>{% endif %}
+                {% if page.core.nonprofit %}<p><abbr title="Nonprofit status in country of incorporation.">Nonprofit Status</abbr>: {{ page.core.nonprofit }}</p>{% endif %}
+                {% if page.core.softwareType %}<p><abbr title="General description of the software products or other IP produced publicly.">Software Hosted</abbr>: {{ page.core.softwareType }}</p>{% endif %}
+                {% if page.core.licenses %}<p><abbr title="License(s) primarily used for software releases or other public IP (SPDX short name).">Licenses Used</abbr>: {{ page.core.licenses }}</p>{% endif %}
+                {% if page.core.copyrightPolicy %}<p><abbr title="How incoming IP is granted: assignment of copyright, Contributor License Agreement, Developers Certificate of Origin, incoming license = outgoing license, other (or none defined).">IP/Copyright Policy</abbr>: {{ page.core.copyrightPolicy }}</p>{% endif %}
+              </td>
+              <td>
+                {% if page.brand.primary %}<p><abbr title="Name of the commonly used brand.">Primary Brand</abbr>: {{ page.brand.primary }}</p>{% endif %}
+                {% if page.brand.secondary %}<p><abbr title="Selection of common secondary brands used, if any.">Other Brand(s)</abbr>: {{ page.brand.secondary }}</p>{% endif %}
+                {% if page.brand.registered %}<p><abbr title="If the primary brand is registered; selected list of countries if known.">Brand Registered?</abbr>: {{ page.brand.registered }}</p>{% endif %}
+                {% if page.brand.logoRegistered %}<p><abbr title="If the logo is registered; selected list of countries if known.">Logo Registered?</abbr>: {{ page.brand.logoRegistered }}</p>{% endif %}
+                {% if page.brand.policyURL %}<p><abbr title="Trademark policy or general statement.">Trademark Policy</abbr>: <a href="{{ page.brand.policyURL }}">{{ page.brand.policyURL }}</a></p>{% endif %}
+                {% if page.brand.useURL %}<p><abbr title="Trademark usage policy or guidelines.">Trademark Usage Guide</abbr>: <a href="{{ page.brand.useURL }}">{{ page.brand.useURL }}</a></p>{% endif %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {% if page.brand.comments %}<p class="small"><abbr title="Commentary on how trademarks may be used by others.">Brand Policy Comments</abbr>: {{ page.brand.comments }}</p>{% endif %}
+        <table>
+          <thead>
+            <tr>
+              <th id="governance">Governance </th>
+              <th id="finance">Finance </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% if page.governance.boardSize %}<p><abbr title="Number of directors on the board.">Board Size</abbr>: {{ page.governance.boardSize }}</p>{% endif %}
+                {% if page.governance.boardType %}<p><abbr title="How board members are appointed: open elections, corporate-owned, sponsor-appointed, mixed.">Board Type</abbr>: {{ page.governance.boardType }}</p>{% endif %}
+                {% if page.governance.boardURL %}<p><abbr title="URL to board listing and/or governance documents.">Board Listing</abbr>: <a href="{{ page.governance.boardURL }}">{{ page.governance.boardURL }}</a></p>{% endif %}
+                {% if page.governance.membership %}<p><abbr title="Brief description of how newcomers could get a voice in governance (i.e. voting for the board or TSC).">Description of Membership</abbr>: {{ page.governance.membership }}</p>{% endif %}
+                {% if page.governance.bylawsURL %}<p><abbr title="URL to bylaws or other corporate governance description.">Bylaws Link</abbr>: <a href="{{ page.governance.bylawsURL }}">{{ page.governance.bylawsURL }}</a></p>{% endif %}
+                {% if page.governance.employees %}<p><abbr title="The number of paid employees of the organization (or estimated range thereof).">Number of Paid Employees</abbr>: {{ page.governance.employees }}</p>{% endif %}
+              </td>
+              <td>
+                {% if page.finance.funding %}<p><abbr title="Brief description of primary funding sources, if known (donors = smaller, one time; sponsors = recurring).">Funding Sources</abbr>: {{ page.finance.funding }}</p>{% endif %}
+                {% if page.finance.budgetUSD %}<p><abbr title="Annual budget, estimated range, if known, in USD.">Approximate Budget</abbr>: {{ page.finance.budgetUSD }}</p>{% endif %}
+                {% if page.finance.budgetURL %}<p><abbr title="URL to formal budget or annual financial report, if known.">Budget Listing</abbr>: <a href="{{ page.finance.budgetURL }}">{{ page.finance.budgetURL }}</a></p>{% endif %}
+                {% if page.finance.sponsorURL %}<p><abbr title="URL to sponsorship page or listing of donors.">Sponsor Listing</abbr>: <a href="{{ page.finance.sponsorURL }}">{{ page.finance.sponsorURL }}</a></p>{% endif %}
+                {% if page.finance.sponsorList %}<p><abbr title="Selection of well-known major sponsors or supporters (where known, list top-tier sponsors).">Top Tier Sponsors</abbr>: {{ page.finance.sponsorList }}</p>{% endif %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th id="projects">Project Hosting</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                {% if page.core.newProjects %}<p><abbr title="Do they accept new projects or have application process to join?">Accepting New Projects?</abbr>: {{ page.core.newProjects }}</p>{% endif %}
+                {% if page.projects.total %}<p><abbr title="Approximate number of top level projects hosted.">Projects Hosted</abbr>: {{ page.projects.total }}</p>{% endif %}
+                {% if page.projects.governance %}<p><abbr title="Brief description of technical governance practice(s) used.">Project Governance</abbr>: {{ page.projects.governance }}</p>{% endif %}
+                {% if page.projects.notable %}<p><abbr title="Sample list of well-known projects hosted.">Major Projects Hosted</abbr>: {{ page.projects.notable }}</p>{% endif %}
+                {% if page.projects.listURL %}<p><abbr title="URL to list of hosted projects.">Project Listing</abbr>: <a href="{{ page.projects.listURL }}">{{ page.projects.listURL }}</a></p>{% endif %}
+                {% if page.projects.services %}<p><abbr title="Services provided to hosted projects.">Project Services </abbr>: {{ page.projects.services }}</p>{% endif %}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <hr id="details"/>
+        {{ content }}
+        <hr/>
+      </section>
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+        {% if page.last_modified_at %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
+        {% elsif page.date %}
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+        {% endif %}
+        <p class="page__date" style="padding-top: 6px;"><strong><i class="fa fa-fw fa-pencil" aria-hidden="true"></i> Suggest changes:</strong> <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ page.path }}" title="Open GitHub Issue on {{ page.path }}">Open an Issue on GitHub</a>!</p>
+      </footer>
+    </div>
+  </article>
+</div>
