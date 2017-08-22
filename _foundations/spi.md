@@ -31,9 +31,9 @@ governance:
   boardSize: "9"
   boardType: "elected"
   boardURL: "https://www.spi-inc.org/corporate/board/"
-  membership: ""
+  membership: "Non-contributing: open to anyone; Contributing: open to FOSS contributors"
   bylawsURL: "https://www.spi-inc.org/corporate/by-laws/"
-  employees: ""
+  employees: "0"
 finance:
   funding: "donations"
   budgetUSD: "200K"
@@ -72,4 +72,4 @@ Guide for [projects joining the SPI](https://www.spi-inc.org/projects/associated
 
 ## How Companies Can Get Involved {#company}
 
-The [SPI appreciates donations](https://www.spi-inc.org/donations/) from corporations.
+[SPI appreciates donations](https://www.spi-inc.org/donations/) from corporations.
