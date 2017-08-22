@@ -1,6 +1,6 @@
 ---
 title: "Software Freedom Conservancy"
-excerpt: "SFC helps promote, improve, develop, and defend Free, Libre, and Open Source Software (FLOSS) projects."
+excerpt: "Conservancy helps promote, improve, develop, and defend Free, Libre, and Open Source Software (FLOSS) projects."
 permalink: /foundations/conservancy
 layout: foundation
 header:
@@ -58,18 +58,18 @@ projects:
 
 ---
 
-## About The Software Freedom Conservancy (SFC)
+## About Software Freedom Conservancy
 
 Software Freedom Conservancy, Inc. is a 501(c)(3) not-for-profit organization incorporated in New York. Software Freedom Conservancy helps promote, improve, develop, and defend Free, Libre, and Open Source Software (FLOSS) projects. Conservancy provides a non-profit home and infrastructure for FLOSS projects. This allows FLOSS developers to focus on what they do best — writing and improving FLOSS for the general public — while Conservancy takes care of the projects' needs that do not relate directly to software development and documentation.
 
 ## How Individuals Can Get Involved {#individual}
 
-The SFC appreciates [individual supporters](https://sfconservancy.org/supporter/).
+Conservancy appreciates [individual supporters](https://sfconservancy.org/supporter/).
 
 ## How Projects Can Get Involved {#project}
 
-Projects can [apply to join](https://sfconservancy.org/projects/apply/) the SFC.
+Projects can [apply to join](https://sfconservancy.org/projects/apply/) Conservancy.
 
 ## How Companies Can Get Involved {#company}
 
-The SFC appreciates their many [corporate sponsors](https://sfconservancy.org/sponsors/).
+Conservancy appreciates their many [corporate sponsors](https://sfconservancy.org/sponsors/).
