@@ -66,20 +66,20 @@ layout: default
                 {% if page.core.nonprofit %}<p><abbr title="Nonprofit status in country of incorporation.">Nonprofit Status</abbr>: {{ page.core.nonprofit }}</p>{% endif %}
                 {% if page.core.softwareType %}<p><abbr title="General description of the software products or other IP produced publicly.">Software Hosted</abbr>: {{ page.core.softwareType }}</p>{% endif %}
                 {% if page.core.licenses %}<p><abbr title="License(s) primarily used for software releases or other public IP (SPDX short name).">Licenses Used</abbr>: {{ page.core.licenses }}</p>{% endif %}
-                {% if page.core.copyrightPolicy %}<p><abbr title="How incoming IP is granted: assignment of copyright, Contributor License Agreement, Developers Certificate of Origin, incoming license = outgoing license, other (or none defined).">IP/Copyright Policy</abbr>: {{ page.core.copyrightPolicy }}</p>{% endif %}
+                {% if page.core.copyrightPolicy.size > 0 %}<p><abbr title="How incoming IP is granted: assignment of copyright, Contributor License Agreement, Developers Certificate of Origin, incoming license = outgoing license, other (or none defined).">IP/Copyright Policy</abbr>: {{ page.core.copyrightPolicy }}</p>{% endif %}
               </td>
               <td>
                 {% if page.brand.primary %}<p><abbr title="Name of the commonly used brand.">Primary Brand</abbr>: {{ page.brand.primary }}</p>{% endif %}
-                {% if page.brand.secondary %}<p><abbr title="Selection of common secondary brands used, if any.">Other Brand(s)</abbr>: {{ page.brand.secondary }}</p>{% endif %}
+                {% if page.brand.secondary.size > 0 %}<p><abbr title="Selection of common secondary brands used, if any.">Other Brand(s)</abbr>: {{ page.brand.secondary }}</p>{% endif %}
                 {% if page.brand.registered %}<p><abbr title="If the primary brand is registered; selected list of countries if known.">Brand Registered?</abbr>: {{ page.brand.registered }}</p>{% endif %}
                 {% if page.brand.logoRegistered %}<p><abbr title="If the logo is registered; selected list of countries if known.">Logo Registered?</abbr>: {{ page.brand.logoRegistered }}</p>{% endif %}
                 {% if page.brand.policyURL %}<p><abbr title="Trademark policy or general statement.">Trademark Policy</abbr>: <a href="{{ page.brand.policyURL }}">{{ page.brand.policyURL }}</a></p>{% endif %}
-                {% if page.brand.useURL %}<p><abbr title="Trademark usage policy or guidelines.">Trademark Usage Guide</abbr>: <a href="{{ page.brand.useURL }}">{{ page.brand.useURL }}</a></p>{% endif %}
+                {% if page.brand.useURL.size > 0 %}<p><abbr title="Trademark usage policy or guidelines.">Trademark Usage Guide</abbr>: <a href="{{ page.brand.useURL }}">{{ page.brand.useURL }}</a></p>{% endif %}
               </td>
             </tr>
           </tbody>
         </table>
-        {% if page.brand.comments %}<p class="small"><abbr title="Commentary on how trademarks may be used by others.">Brand Policy Comments</abbr>: {{ page.brand.comments }}</p>{% endif %}
+        {% if page.brand.comments.size > 0 %}<p class="small"><abbr title="Commentary on how trademarks may be used by others.">Brand Policy Comments</abbr>: {{ page.brand.comments }}</p>{% endif %}
         <table>
           <thead>
             <tr>
@@ -101,8 +101,8 @@ layout: default
                 {% if page.finance.funding %}<p><abbr title="Brief description of primary funding sources, if known (donors = smaller, one time; sponsors = recurring).">Funding Sources</abbr>: {{ page.finance.funding }}</p>{% endif %}
                 {% if page.finance.budgetUSD %}<p><abbr title="Annual budget, estimated range, if known, in USD.">Approximate Budget</abbr>: {{ page.finance.budgetUSD }}</p>{% endif %}
                 {% if page.finance.budgetURL %}<p><abbr title="URL to formal budget or annual financial report, if known.">Budget Listing</abbr>: <a href="{{ page.finance.budgetURL }}">{{ page.finance.budgetURL }}</a></p>{% endif %}
-                {% if page.finance.sponsorURL %}<p><abbr title="URL to sponsorship page or listing of donors.">Sponsor Listing</abbr>: <a href="{{ page.finance.sponsorURL }}">{{ page.finance.sponsorURL }}</a></p>{% endif %}
-                {% if page.finance.sponsorList %}<p><abbr title="Selection of well-known major sponsors or supporters (where known, list top-tier sponsors).">Top Tier Sponsors</abbr>: {{ page.finance.sponsorList }}</p>{% endif %}
+                {% if page.finance.sponsorURL.size > 0 %}<p><abbr title="URL to sponsorship page or listing of donors.">Sponsor Listing</abbr>: <a href="{{ page.finance.sponsorURL }}">{{ page.finance.sponsorURL }}</a></p>{% endif %}
+                {% if page.finance.sponsorList.size > 0 %}<p><abbr title="Selection of well-known major sponsors or supporters (where known, list top-tier sponsors).">Top Tier Sponsors</abbr>: {{ page.finance.sponsorList }}</p>{% endif %}
               </td>
             </tr>
           </tbody>
@@ -118,7 +118,7 @@ layout: default
               <td>
                 {% if page.core.newProjects %}<p><abbr title="Do they accept new projects or have application process to join?">Accepting New Projects?</abbr>: {{ page.core.newProjects }}</p>{% endif %}
                 {% if page.projects.total %}<p><abbr title="Approximate number of top level projects hosted.">Projects Hosted</abbr>: {{ page.projects.total }}</p>{% endif %}
-                {% if page.projects.governance %}<p><abbr title="Brief description of technical governance practice(s) used.">Project Governance</abbr>: {{ page.projects.governance }}</p>{% endif %}
+                {% if page.projects.governance.size > 0 %}<p><abbr title="Brief description of technical governance practice(s) used.">Project Governance</abbr>: {{ page.projects.governance }}</p>{% endif %}
                 {% if page.projects.notable %}<p><abbr title="Sample list of well-known projects hosted.">Major Projects Hosted</abbr>: {{ page.projects.notable }}</p>{% endif %}
                 {% if page.projects.listURL %}<p><abbr title="URL to list of hosted projects.">Project Listing</abbr>: <a href="{{ page.projects.listURL }}">{{ page.projects.listURL }}</a></p>{% endif %}
                 {% if page.projects.services %}<p><abbr title="Services provided to hosted projects.">Project Services </abbr>: {{ page.projects.services }}</p>{% endif %}
