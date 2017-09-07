@@ -1,6 +1,6 @@
 ---
 title: "Eclipse Foundation"
-excerpt: "Eclipse is an amazing open source community of Tools, Projects and Collaborative Working Groups."
+excerpt: "The Eclipse Foundation is an amazing open source community of Tools, Projects and Collaborative Working Groups."
 permalink: /foundations/eclipse
 layout: foundation
 header:
@@ -14,7 +14,7 @@ sidebar:
     text: >
       Tax Status: 501C6  
       <br/><br/>
-      Popular Projects: RCP, Eclipse Modeling Framework, BRIT, Jetty  
+      Popular Projects: The Eclipse Project, Eclipse Modeling Framework, BIRT, Jetty  
       <br/><br/>
       Accepts New Projects: Yes  
 
@@ -24,9 +24,8 @@ core:
   legalName: "Eclipse Foundation, Inc."
   location: "US"
   nonprofit: "501C6"
-  softwareType: "devtool"
-  licenses: "EPL-1.0"
-  copyrightPolicy: "CLA"
+  licenses: "EPL-2.0"
+  copyrightPolicy: "https://www.eclipse.org/legal/ECA.php"
 governance:
   boardSize: "16"
   boardType: "sponsor, elected"
@@ -42,17 +41,17 @@ finance:
   sponsorList: "CA Technologies, CEA LIST, Ericcson AB, IBM, itemis AG, OBEO, Oracle, Redhat, Bosch, SAP"
 brand:
   primary: "Eclipse"
-  secondary: "various projects - dozens+"
+  secondary: "LocationTech, PolarSys, various projects - dozens+"
   registered: "yes"
   logo: "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-426x100.png"
-  logoRegistered: "no"
+  logoRegistered: "yes"
   policyURL: "https://eclipse.org/legal/logo_guidelines.php"
   useURL: ""
   comments: "Detailed rules for using Eclipse and all associated project trademarks."
 projects:
-  total: "84"
+  total: "345"
   governance: ""
-  notable: "Eclipse Modeling Framework, BRIT, Jetty"
+  notable: "The Eclipse Project, Eclipse Modeling Framework, BIRT, Jetty"
   listURL: "http://www.eclipse.org/projects/"
   services: "Eclipse provides a wide variety of support services for projects."
 
