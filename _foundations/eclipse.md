@@ -25,7 +25,8 @@ core:
   location: "US"
   nonprofit: "501C6"
   licenses: "EPL-2.0"
-  copyrightPolicy: "https://www.eclipse.org/legal/ECA.php"
+  copyrightPolicy: "DCO"
+  copyrightPolicyURL: "https://www.eclipse.org/legal/ECA.php"
 governance:
   boardSize: "16"
   boardType: "sponsor, elected"
@@ -49,7 +50,7 @@ brand:
   useURL: ""
   comments: "Detailed rules for using Eclipse and all associated project trademarks."
 projects:
-  total: "345"
+  total: "283"
   governance: ""
   notable: "The Eclipse Project, Eclipse Modeling Framework, BIRT, Jetty"
   listURL: "http://www.eclipse.org/projects/"
