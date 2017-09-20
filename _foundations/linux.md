@@ -12,7 +12,7 @@ sidebar:
   - image: "assets/images/linux.svg"
     image_alt: "Linux Foundation logo"
     text: >
-      Tax Status: The Linux Foundation uses multiple entity types, including 501C3, 501C4, and 501C6. The Linux Foundation is a 501C6.  
+      Tax Status: 501C6  
       <br/><br/>
       Popular Projects: Automotive Grade Linux, Cloud Foundry, Cloud Native Computing Foundation, Core Infrastructure Initiative, Hyperledger, Let's Encrypt, Node.js Foundation, ONAP, SPDX, Xen Project, Yocto Project  
       <br/><br/>
@@ -30,7 +30,7 @@ core:
   copyrightPolicy: ""
 governance:
   boardSize: "22"
-  boardType: "member, elected, community, at-large"
+  boardType: "sponsor, elected"
   boardURL: "https://www.linuxfoundation.org/about/board-members/"
   membership: "member"
   bylawsURL: "https://www.linuxfoundation.org/about/bylaws"
@@ -51,7 +51,7 @@ brand:
   useURL: "https://www.linuxfoundation.org/trademark-usage"
   comments: "The Linux Foundation has a default trademark policy and allows each project to refine rules for the use of project marks."
 projects:
-  total: "100+"
+  total: "74+"
   governance: ""
   notable: "Automotive Grade Linux, Cloud Foundry, Cloud Native Computing Foundation, Core Infrastructure Initiative, Hyperledger, Let's Encrypt, Node.js Foundation, ONAP, SPDX, Xen Project, Yocto Project"
   listURL: "https://www.linuxfoundation.org/projects"
