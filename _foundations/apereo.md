@@ -22,7 +22,7 @@ core:
   newProjects: "yes"
   url: "https://www.apereo.org/"
   legalName: "Apereo Foundation"
-  location: "Delaware, US"
+  location: "New Jersey, US"
   nonprofit: "501C3"
   softwareType: "various"
   licenses: ["Apache-2.0", "ECL-2.0"]
