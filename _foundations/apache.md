@@ -72,4 +72,4 @@ Projects or communities wishing to join the ASF should submit a proposal to the 
 
 ## How Companies Can Get Involved {#company}
 
-As a vendor-neutral organization, the ASF does not allow corporations as entities to directly partcipate in project governance.  The ASF very much appreciates companies that choose to donate new codebases to the Apache Incubator, and to the many [Sponsors who donate](https://www.apache.org/foundation/thanks.html) to help fund Apache-wide operations, as well as a [Support Apache](http://www.apache.org/foundation/contributing.html) call to action.
+As a vendor-neutral organization, the ASF does not allow corporations as entities to directly participate in project governance.  The ASF very much appreciates companies that choose to donate new codebases to the Apache Incubator, and to the many [Sponsors who donate](https://www.apache.org/foundation/thanks.html) to help fund Apache-wide operations, as well as a [Support Apache](http://www.apache.org/foundation/contributing.html) call to action.
