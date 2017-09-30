@@ -1,0 +1,15 @@
+---
+title: "All Foundation Listing"
+excerpt: "Lists all Foundations"
+permalink: /foundations/
+layout: archive
+header:
+  overlay_image: /assets/images/delfi-de-la-rua-152121-h.jpg
+  caption: "Photo: [**Delfi de la Rua / Unsplash**](https://unsplash.com)"
+---
+
+{% for post in site.foundations %}
+  {% unless post.exclude %}
+    {% include foundation-single.html %}
+  {% endunless %}
+{% endfor %}
