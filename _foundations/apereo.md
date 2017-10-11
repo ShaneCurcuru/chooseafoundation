@@ -29,7 +29,7 @@ core:
   copyrightPolicy: "CLA"
 governance:
   boardSize: "15"
-  boardType: "elected"
+  boardType: "elected, appointed"
   boardURL: "https://www.apereo.org/content/leadership"
   membership: "purchased"
   bylawsURL: "https://www.apereo.org/content/bylaws
