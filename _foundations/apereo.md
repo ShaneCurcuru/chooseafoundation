@@ -36,8 +36,8 @@ governance:
   employees: "2"
 finance:
   funding: "members, commercial affiliates"
-  budgetUSD: "?"
-  budgetURL: ""
+  budgetUSD: "930K"
+  budgetURL: "https://www.apereo.org/sites/default/files/Annual%20Reports/Apereo%20Annual%20Report%202016-2017.pdf"
   sponsorURL: "https://www.apereo.org/content/commercial-affiliates"
   sponsorList: ""
 brand:
