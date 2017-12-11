@@ -34,18 +34,18 @@ governance:
   bylawsURL: "https://www.ow2.org/bin/view/Membership_Joining/Legal_Resources"
   employees: "8"
 finance:
-  funding: "Membership dues, Collaborative project subsidies"
+  funding: "Membership dues and Collaborative projects"
   budgetUSD: "700k"
   budgetURL: "https://www.ow2.org/bin/view/Membership_Joining/Legal_Resources"
   sponsorURL: ""
-  sponsorList: "OW2 members are listed at https://www.ow2.org/bin/view/Membership_Joining/Consortium_Members"
+  sponsorList: "OW2 Members are listed at https://www.ow2.org/bin/view/Membership_Joining/Consortium_Members"
 brand:
   primary: "OW2"
   secondary: ""
   registered: "yes"
   logo: "https://www.ow2.org/bin/view/Marketing_Resources/OW2_Logo"
   logoRegistered: "no"
-  policyURL: ""
+  policyURL: "https://www.ow2.org/bin/download/Membership_Joining/Legal_Resources/OW2TrademarksandLogoPolicyv2.2.pdf"
   useURL: ""
   comments: ""
 projects:
@@ -59,7 +59,7 @@ projects:
 
 ## About OW2
 
-At OW2, our job is to promote the development of open-source software for complex information systems: middleware, generic business applications, cloud computing platforms, IoT, etc. We are supported by a vibrant open source community and business ecosystem. In 2017, OW2 celebrates its 10th anniversary. We are proud to be the leading open-source software organization in Europe. We help build healthy and sustainable open source projects that reach their markets.
+At OW2, our job is to promote the development of open-source software for complex information systems: middleware, generic business applications, cloud computing platforms, IoT, etc. We are supported by a vibrant open source community and business ecosystem. In 2017, OW2 celebrates its 10th anniversary. We are proud to be the leading open-source software organization in Europe. We help build healthy and sustainable open source projects that reach their markets. OW2 hosts some one hundred technology Projects, including  ASM, Bonita, Chameleon, CLIF, DocDoku, Easybeans, Emerginov, Fractal, FusionDirectory, JOnAS, JORAM, JOTM, Knowage, LemonLDAP:NG, Lutece, OCCInterface, PetalsESB, Prelude, ProActive, RocketChat, SAT4J, Spagic, Spago4Q, Talend Studio, Telosys, WebLab and XWiki. Several of these projects are combined into market-driven Initiatives (Open Source Cloudware, Security and Privacy, Futur Internet Software and Services, Big Data Initiatives) which facilitate their implementations into business solutions by systems integrators, OEMs and end-users. OW2 is also an open source dissemination partner in a number of collaborative projects, such as OCCIware, CHOReVOLUTION, STAMP and CROSSMINER. Visit www.ow2.org, follow us on Twitter @ow2.
 
 ## How Individuals Can Get Involved {#individual}
 
