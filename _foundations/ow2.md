@@ -32,7 +32,7 @@ governance:
   boardURL: "https://www.ow2.org/bin/view/About/OW2_Governance"
   membership: ""
   bylawsURL: "https://www.ow2.org/bin/view/Membership_Joining/Legal_Resources"
-  employees: "0"
+  employees: "8"
 finance:
   funding: ""
   budgetUSD: ""
