@@ -4,7 +4,7 @@ excerpt: "The open source community for infrastructure software"
 permalink: /foundations/ow2
 layout: foundation
 header:
-  overlay_color: rgba(0, 158, 255, 1)
+  overlay_color: rgba(0, 158, 255, 0.8)
 tags:
   - Foundation
 
@@ -12,7 +12,8 @@ sidebar:
   - image: "assets/images/ow2.svg"
     image_alt: "OW2 logo"
     text: >
-      Tax Status:
+      Tax Status: Non-profit
+      <br/><br/>
       Popular Projects: ASM, BonitaSoft, FusionDirectory, GLPI, Knowage, LemonLDAP Proactive, RocketChat, Sat4J, XWiki
       <br/><br/>
       Accepts New Projects: Yes  
@@ -20,7 +21,7 @@ sidebar:
 core:
   newProjects: "yes"
   url: "https://www.ow2.org/"
-  legalName: "OW2"
+  legalName: "OW2 Consortium"
   location: "Paris"
   nonprofit: "yes"
   softwareType: "various"
@@ -37,8 +38,8 @@ finance:
   funding: "Membership dues and Collaborative projects"
   budgetUSD: "700k"
   budgetURL: "https://www.ow2.org/bin/view/Membership_Joining/Legal_Resources"
-  sponsorURL: ""
-  sponsorList: "OW2 Members are listed at https://www.ow2.org/bin/view/Membership_Joining/Consortium_Members"
+  sponsorURL: "https://www.ow2.org/bin/view/Membership_Joining/Consortium_Members"
+  sponsorList: ""
 brand:
   primary: "OW2"
   secondary: ""
