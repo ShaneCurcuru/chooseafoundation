@@ -25,14 +25,14 @@ core:
   location: "New Jersey, US"
   nonprofit: "501C3"
   softwareType: "various"
-  licenses: ["Apache-2.0", "ECL-2.0"]
+  licenses: "Apache-2.0, ECL-2.0"
   copyrightPolicy: "CLA"
 governance:
   boardSize: "15"
   boardType: "elected, appointed"
   boardURL: "https://www.apereo.org/content/leadership"
   membership: "purchased"
-  bylawsURL: "https://www.apereo.org/content/bylaws
+  bylawsURL: "https://www.apereo.org/content/bylaws"
   employees: "2"
 finance:
   funding: "members, commercial affiliates"

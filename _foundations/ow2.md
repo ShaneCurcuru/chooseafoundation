@@ -1,6 +1,6 @@
 ---
 title: "OW2"
-excerpt: "The open source community for infrastructure software"
+excerpt: "The open source community for infrastructure software."
 permalink: /foundations/ow2
 layout: foundation
 header:
@@ -11,10 +11,10 @@ tags:
 sidebar:
   - image: "assets/images/ow2.svg"
     image_alt: "OW2 logo"
-    text: >
-      Tax Status: Non-profit
+    text: |
+      Tax Status: Nonprofit  
       <br/><br/>
-      Popular Projects: ASM, BonitaSoft, FusionDirectory, GLPI, Knowage, LemonLDAP Proactive, RocketChat, Sat4J, XWiki
+      Popular Projects: ASM, BonitaSoft, FusionDirectory, GLPI, Knowage, LemonLDAP Proactive, RocketChat, Sat4J, XWiki  
       <br/><br/>
       Accepts New Projects: Yes  
 
