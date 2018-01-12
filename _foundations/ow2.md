@@ -54,7 +54,7 @@ projects:
   governance: "https://www.ow2.org/bin/view/About/OW2_Governance"
   notable: "ASM, BonitaSoft, FusionDirectory, GLPI, Knowage, LemonLDAP Proactive, RocketChat, Sat4J, XWiki"
   listURL: "https://projects.ow2.org/"
-  services: "OW2 provides three types of services to its projects. First, OW2 operates a technical infrastructure by delivering tools and collaborative services to project teams. Second, OW2 provides community services by setting-up the decision-making process and organizing activities. Third, OW2 provides marketing services by showcasing projects through its marketplace, industry event and social media. In 2018, OW2 will deploy it's "OW2 Process" a combination of these services into an integrated approach to add value to open source projects."
+  services: "OW2 provides three types of services to its projects. First, OW2 operates a technical infrastructure by delivering tools and collaborative services to project teams. Second, OW2 provides community services by setting up the decision making process and organizing activities. Third, OW2 provides marketing services by showcasing projects through its marketplace, industry event and social media. In 2018, OW2 will deploy it's 'OW2 Process', a combination of these services into an integrated approach to add value to open source projects."
 
 ---
 
