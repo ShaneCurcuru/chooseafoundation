@@ -17,6 +17,8 @@ sidebar:
       Popular Projects: OWASP Top 10, CSRFGuard, Zed Attack Proxy  
       <br/><br/>
       Accepts New Projects: Yes  
+      <br/><br/>
+      Data Last Updated: August, 2017
 
 core:
   newProjects: "yes"

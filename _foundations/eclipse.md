@@ -17,6 +17,8 @@ sidebar:
       Popular Projects: The Eclipse Project, Eclipse Modeling Framework, BIRT, Jetty  
       <br/><br/>
       Accepts New Projects: Yes  
+      <br/><br/>
+      Data Last Updated: August, 2017
 
 core:
   newProjects: "yes"

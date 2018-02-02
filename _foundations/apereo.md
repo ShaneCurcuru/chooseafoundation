@@ -17,6 +17,8 @@ sidebar:
       Popular Projects: Sakai, CAS, uPortal, OAE  
       <br/><br/>
       Accepts New Projects: Yes  
+      <br/><br/>
+      Data Last Updated: October, 2017
 
 core:
   newProjects: "yes"

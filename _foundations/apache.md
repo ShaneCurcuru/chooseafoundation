@@ -17,6 +17,8 @@ sidebar:
       Popular Projects: Hadoop, OpenOffice, Lucene, Maven  
       <br/><br/>
       Accepts New Projects: Yes  
+      <br/><br/>
+      Data Last Updated: August, 2017
 
 core:
   newProjects: "yes"

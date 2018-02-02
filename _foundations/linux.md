@@ -17,6 +17,8 @@ sidebar:
       Popular Projects: Automotive Grade Linux, Cloud Foundry, Cloud Native Computing Foundation, Core Infrastructure Initiative, Hyperledger, Let's Encrypt, Node.js Foundation, ONAP, SPDX, Xen Project, Yocto Project  
       <br/><br/>
       Accepts New Projects: Yes  
+      <br/><br/>
+      Data Last Updated: August, 2017
 
 core:
   name: "The Linux Foundation"

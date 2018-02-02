@@ -17,6 +17,8 @@ sidebar:
       Popular Projects: ASM, BonitaSoft, FusionDirectory, GLPI, Knowage, LemonLDAP Proactive, RocketChat, Sat4J, XWiki  
       <br/><br/>
       Accepts New Projects: Yes  
+      <br/><br/>
+      Data Last Updated: December, 2017
 
 core:
   newProjects: "yes"
