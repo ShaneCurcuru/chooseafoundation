@@ -2,14 +2,9 @@
   <nav class="toc">
     <header><h4 class="nav__title"><a href="{{ '/foundations/' | absolute_url }}"><i class="fa fa-list-alt"></i> Foundations</a></h4></header>
     <ul class="toc__menu" id="toc">
-      <li><a href="{{ '/foundations/' | absolute_url }}">See all Foundations</a></li>
-      <li><a href="{{ '/foundations/apache' | absolute_url }}">Apache Software Foundation</a></li>
-      <li><a href="{{ '/foundations/linux' | absolute_url }}">Linux Foundation</a></li>
-      <li><a href="{{ '/foundations/conservancy' | absolute_url }}">Conservancy</a></li>
-      <li><a href="{{ '/foundations/eclipse' | absolute_url }}">Eclipse Foundation</a></li>
-      <li><a href="{{ '/foundations/spi' | absolute_url }}">SPI</a></li>
-      <li><a href="{{ '/foundations/ow2' | absolute_url }}">OW2</a></li>
-      <li><a href="{{ '/foundations/owasp' | absolute_url }}">OWASP</a></li>
+      {% for f in site.foundations %}
+      <li><a href="{{ f.permalink | absolute_url }}">{{ f.title }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 </aside>
