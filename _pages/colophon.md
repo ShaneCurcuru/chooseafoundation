@@ -14,7 +14,7 @@ tags:
 
 ## Impress / License
 
-Original content &copy; 2017 Shane Curcuru, as an individual.  Licensed under the [Apache License 2.0](LICENSE); see also [NOTICE](NOTICE).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
+Original content &copy; 2017-2018 Shane Curcuru, as an individual.  Licensed under the [Apache License 2.0](LICENSE); see also [NOTICE](NOTICE).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
 
 ## Contributing
 
@@ -35,7 +35,8 @@ I welcome your input!  See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit 
 - Images from [Unsplash](https://unsplash.com/)
 - Hosted by [GitHub Pages](https://pages.github.com/)
 - Written with the [Atom.io](https://atom.io/) editor on a Mac
-- Powered by caffeine from [Peet's Coffee and Tea](http://www.peets.com/).
+- Powered by caffeine from [Peet's Coffee and Tea](http://www.whyilovepeets.com/).
+- Supported by [Punderthings℠ Consulting](http://punderthings.com/).
 
 ## Trademarks
 
