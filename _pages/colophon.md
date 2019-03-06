@@ -14,11 +14,11 @@ tags:
 
 ## Impress / License
 
-Original content &copy; 2017-2018 Shane Curcuru, as an individual.  Licensed under the [Apache License 2.0](LICENSE); see also [NOTICE](NOTICE).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
+Original content &copy; 2017-2019 Shane Curcuru, as an individual.  Licensed under the [Apache License 2.0](LICENSE); see also [NOTICE](NOTICE).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
 
 ## Contributing
 
-I welcome your input!  See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a GitHub issue or PR.  All submissions are expected to be under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+I welcome your input!  See [CONTRIBUTING.md](https://github.com/ShaneCurcuru/chooseafoundation/blob/master/CONTRIBUTING.md) for how to submit a GitHub issue or PR.  All submissions are expected to be under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Credits
 

@@ -32,7 +32,7 @@ Otherwise, Shane is: a father and husband, a BMW driver and punny guy. Oh, and [
 
 ## Contributing / Credits
 
-I welcome your input!  See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit a GitHub issue or PR.  All submissions are expected to be under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+I welcome your input!  See [CONTRIBUTING.md](https://github.com/ShaneCurcuru/chooseafoundation/blob/master/CONTRIBUTING.md) for how to submit a GitHub issue or PR.  All submissions are expected to be under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 Thanks and credit to the many fine open source projects and photographs used are in the [Colophon]({{ '/colophon' | absolute_url }}).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
 
