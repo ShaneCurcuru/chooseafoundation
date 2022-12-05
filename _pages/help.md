@@ -19,6 +19,12 @@ tags:
 
 Each of the FOSS Foundations listed here has either volunteers or paid staff who are happy to help answer basic questions and point you to the right information at their organization.  Note: **open source runs on email** (and sometimes chat), so don't expect to _phone_ someone up; you'll get much better results with a polite email or tweet to someone - and a little patience.
 
+## Looking For More FOSS Foundations?
+
+There are many more FOSS Foundations, non-profits, and other organizations out there than the handful on this site!  We focus on only the major foundations that accept new project submissions from a variety of projects, but there are plenty of other groups out there to help. 
+
+The [FLOSS Foundations website](https://flossfoundations.org/) is the place to start.  Started in 2005 by a group of leaders from various foundations, it features a [comprehensive directory of Foundations](https://flossfoundations.org/foundation-directory) and an [active mailing list for serious discussions](https://lists.freedesktop.org/mailman/listinfo/foundations) around foundation governance, leadership, and strategies.
+
 ## Growing Your Project
 
 There are a lot of different aspects to growing your project than just the code.  Read our advice posts about all the different aspects of open source you might want to consider - like governance, licenses, brands, and your community.

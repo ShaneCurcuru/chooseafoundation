@@ -21,6 +21,7 @@ This website includes:
 - **Factual listings** of popular FOSS Foundations that host other open source projects, and that have an active submission program that allows new open source communities to join that Foundation.  Data in the Foundations listings is either sourced directly from their websites, or is provided by an official representative of the organization.
 - **Explanations** of common open source terms, provided by Shane or from links to the many other fine open source people who help explain our ecosystem.
 - **Advice** on how to approach communities (for companies), or how to approach companies (for communities), by Shane and [Punderthings℠ Consulting](http://punderthings.com/).
+- **Resources** about Foundations and open source governance - like the [comprehensive list of all FLOSS Foundations](https://flossfoundations.org/) out there, and more [help explaining what it all means](/help).
 
 ## About Shane
 

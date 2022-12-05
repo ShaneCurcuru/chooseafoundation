@@ -13,7 +13,7 @@ tags:
 
 ## Terms And Conditions
 
-Original content copyright &copy; 2017-2018 Shane Curcuru, licensed under the [Apache License 2.0](LICENSE).  See [NOTICE](NOTICE) for further license information.
+Original content copyright &copy; 2017-2022 [Shane Curcuru](https://shanecurcuru.org/), licensed under the [Apache License 2.0](LICENSE).  See [NOTICE](NOTICE) for further license information.  [About This Website](/about) includes an overview.
 
 While the best effort is made to ensure that factual data about organizations is correct, no warranty is made for the information on this website.  No legal advice is provided at this site.
 
