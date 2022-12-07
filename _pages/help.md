@@ -13,7 +13,26 @@ tags:
   - Punderthings
 ---
 
-{% include foundations-toc.html %}
+{% include toc icon="book" title="Contents" %}
+
+## Wait - What Is Open Source Anyway?
+
+Looking for the [TL;DR on Open Source](https://tldrfoss.com/)?  Here are some of the best starting guides to open source, governance, trademarks, and legal issues out there.
+
+- Read [Github's Open Source Guide](https://opensource.guide/) for a high-level explanation of open source concepts.
+- The [TODO Group created a guide for enterprises](https://todogroup.org/guides/): managing open source projects in business.
+- [Google created their own guide](https://opensource.google.com/?authuser=0) for how to manage projects and communities.
+- [RedHat's opensource.com blog](https://opensource.com/) hosts a wealth of FOSS authors.
+
+## Advanced Topics in FOSS
+
+- Get help choosing your [OSI-listed license](https://opensource.org/licenses) with [Choose A License](https://choosealicense.com/).
+- Find and implement a [Code of Conduct for your project](https://opensourceconduct.com/).
+- Study some actual [FOSS Foundation governance policies](https://fossgovernance.org/) used today.
+- Foundations can help with [FOSS project sustainability and fundraising](https://fosssustainability.com/).
+- Learn how [Foundations get their own funding and help with sustainability](https://fossfunding.com/).
+- Read about [Foundation leaders explaining how they help with project governance](https://lwn.net/Articles/561336/).
+- Look to [speakers at the Community Leadership Summit 2022](https://2022.allthingsopen.org/events/community-leadership-summit/) and [2020](https://www.communityleadershipsummit.com/) for trusted open source mentors.
 
 ## Need more help choosing?  Just ask!
 
