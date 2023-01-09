@@ -14,7 +14,7 @@ tags:
 
 ## Impress / License
 
-Original content &copy; 2017-2019 Shane Curcuru, as an individual.  Licensed under the [Apache License 2.0](LICENSE); see also [NOTICE](NOTICE).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
+Original content &copy; 2017-2019 Shane Curcuru, as an individual.  Licensed under the [Apache License 2.0](https://github.com/ShaneCurcuru/chooseafoundation/blob/master/LICENSE); see also [NOTICE](NOTICE).  The [Privacy Policy]({{ '/terms' | absolute_url }}) for this website is posted.
 
 ## Contributing
 

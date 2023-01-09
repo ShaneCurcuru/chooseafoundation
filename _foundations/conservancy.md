@@ -48,7 +48,7 @@ brand:
   registered: "no"
   logo: "https://sfconservancy.org/img/conservancy-logo.png"
   logoRegistered: "no"
-  policyURL: "per-project policies"
+  policyURL: "https://sfconservancy.org/projects/policies/"
   useURL: ""
   comments: ""
 projects:
