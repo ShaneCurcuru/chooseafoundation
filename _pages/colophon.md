@@ -18,7 +18,7 @@ Original content &copy; 2017-2019 Shane Curcuru, as an individual.  Licensed und
 
 ## Contributing
 
-I welcome your input!  See [CONTRIBUTING.md](https://github.com/ShaneCurcuru/chooseafoundation/blob/master/CONTRIBUTING.md) for how to submit a GitHub issue or PR.  All submissions are expected to be under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+I welcome your input!  See [CONTRIBUTING.md](https://github.com/ShaneCurcuru/chooseafoundation/blob/master/CONTRIBUTING.md) for how to submit a GitHub issue or PR.  All submissions are expected to be under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 ## Credits
 
@@ -40,6 +40,6 @@ I welcome your input!  See [CONTRIBUTING.md](https://github.com/ShaneCurcuru/cho
 
 ## Trademarks
 
-Apache®, the feather logo, and the names of all Apache projects referenced are either [registered trademarks or trademarks](https://www.apache.org/foundation/marks/) of the [Apache Software Foundation](http://www.apache.org/) in the United States and/or other countries.  
+Apache®, the feather logo, and the names of all Apache projects referenced are either [registered trademarks or trademarks](https://www.apache.org/foundation/marks/) of the [Apache Software Foundation](https://www.apache.org/) in the United States and/or other countries.  
 
 Names, logos, and various other indicia of various open source projects are their trademarks.

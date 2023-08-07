@@ -40,7 +40,7 @@ finance:
   funding: "sponsors"
   budgetUSD: "6M"
   budgetURL: "https://www.eclipse.org/org/foundation/reports/annual_report.php"
-  sponsorURL: "http://www.eclipse.org/membership/exploreMembership.php#tab-strategic"
+  sponsorURL: "https://www.eclipse.org/membership/exploreMembership.php#tab-strategic"
   sponsorList: "CA Technologies, CEA LIST, Fujitsu Limited, IBM, itemis AG, OBEO, Oracle, Payara Services Limited, Redhat, Bosch, SAP, Tomitribe"
 brand:
   primary: "Eclipse"
@@ -54,7 +54,7 @@ projects:
   total: "358"
   governance: ""
   notable: "The Eclipse Project, Eclipse Modeling Framework, Jetty"
-  listURL: "http://www.eclipse.org/projects/"
+  listURL: "https://www.eclipse.org/projects/"
   services: "Governance, intellectual property management, ecosystem development, builds, and IT infrastructure."
 
 ---

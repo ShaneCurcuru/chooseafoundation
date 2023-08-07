@@ -20,4 +20,4 @@ See [NOTICE](NOTICE) and the [Colophon](http://chooseafoundation.com/colophon).
 
 Theme forked from [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2018 | A [Punderthings℠ Production](http://punderthings.com/) | Licensed: [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+Copyright © [Shane Curcuru](http://shanecurcuru.org/) 2017-2018 | A [Punderthings℠ Production](http://punderthings.com/) | Licensed: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)

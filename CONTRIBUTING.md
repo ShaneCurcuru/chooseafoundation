@@ -2,7 +2,7 @@
 
 :sparkles: :tada: Thanks for contributing! :tada: :star2:
 
-All submissions **must** be licensed under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) or [MIT](https://spdx.org/licenses/MIT) for inclusion.  This provides for maximum re-use by others in other projects and simplifies the licensing [NOTICE](NOTICE) for this repository.
+All submissions **must** be licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) or [MIT](https://spdx.org/licenses/MIT) for inclusion.  This provides for maximum re-use by others in other projects and simplifies the licensing [NOTICE](NOTICE) for this repository.
 
 Substantiative changes, or changes to **descriptions** of specific FOSS Foundations should either be made by a GitHub user clearly associated with that Foundation's board or officers, or should include a comment pointing to a link on that Foundation's site validating the change.  Factual data about organizations is simple to verify with a link; however I want to be sure that each organization's officers can have a say in any descriptive text presented here about their Foundation.
 

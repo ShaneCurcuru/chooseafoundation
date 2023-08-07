@@ -16,16 +16,16 @@
       <li><a href="https://www.slideshare.net/{{ site.author.slideshare }}"><i class="fa fa-fw fa-slideshare-square" aria-hidden="true"></i> Slideshare</a></li>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
     {% if site.author.gitlab %}
-      <li><a href="http://gitlab.com/{{ site.author.gitlab }}"><i class="fa fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
+      <li><a href="https://gitlab.com/{{ site.author.gitlab }}"><i class="fa fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
     {% endif %}
     {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+      <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fa fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
     {% endif %}
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.authorurl }}">{{ site.name }}</a> / <a href="http://punderthings.com/">Punderthings, LLC</a>  |  Licensed: <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>  |  <a href="{{ '/colophon' | absolute_url }}">Credits / Colophon</a>  |  <a href="{{ '/terms' | absolute_url }}">Privacy Policy</a></div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.authorurl }}">{{ site.name }}</a> / <a href="https://punderthings.com/">Punderthings, LLC</a>  |  Licensed: <a rel="license" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>  |  <a href="{{ '/colophon' | absolute_url }}">Credits / Colophon</a>  |  <a href="{{ '/terms' | absolute_url }}">Privacy Policy</a></div>
