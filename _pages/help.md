@@ -29,6 +29,7 @@ Looking for the [TL;DR on Open Source](https://tldrfoss.com/)?  Here are some of
 - Get help choosing your [OSI-listed license](https://opensource.org/licenses) with [Choose A License](https://choosealicense.com/).
 - Find and implement a [Code of Conduct for your project](https://opensourceconduct.com/).
 - Study some actual [FOSS Foundation governance policies](https://fossgovernance.org/) used today.
+- Need a super-simple governance guide? Use the [Minimum Viable Governance model](https://github.com/github/mvg) for your project.
 - Foundations can help with [FOSS project sustainability and fundraising](https://fosssustainability.com/).
 - Learn how [Foundations get their own funding and help with sustainability](https://fossfunding.com/).
 - Read about [Foundation leaders explaining how they help with project governance](https://lwn.net/Articles/561336/).
@@ -40,9 +41,11 @@ Each of the FOSS Foundations listed here has either volunteers or paid staff who
 
 ## Looking For More FOSS Foundations?
 
-There are many more FOSS Foundations, non-profits, and other organizations out there than the handful on this site!  We focus on only the major foundations that accept new project submissions from a variety of projects, but there are plenty of other groups out there to help. 
+There are many more FOSS Foundations, non-profits, and other organizations out there than the handful on this site!  We focus on only the major foundations that accept new project submissions from a variety of projects, but there are plenty of other groups out there to help.
 
 The [FLOSS Foundations website](https://flossfoundations.org/) is the place to start.  Started in 2005 by a group of leaders from various foundations, it features a [comprehensive directory of Foundations](https://flossfoundations.org/foundation-directory) and an [active mailing list for serious discussions](https://lists.freedesktop.org/mailman/listinfo/foundations) around foundation governance, leadership, and strategies.
+
+Looking for metadata? Contribute to the [FOSS Foundations Metadata directory](https://fossfoundation.info/)!
 
 ## Growing Your Project
 
