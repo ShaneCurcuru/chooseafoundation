@@ -30,6 +30,7 @@ core:
   softwareType: "various"
   licenses: "various"
   copyrightPolicy: ""
+  identifier: "lf"
 governance:
   boardSize: "22"
   boardType: "sponsor, elected"

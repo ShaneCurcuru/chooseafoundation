@@ -29,6 +29,7 @@ core:
   licenses: "EPL-2.0"
   copyrightPolicy: "DCO"
   copyrightPolicyURL: "https://www.eclipse.org/legal/ECA.php"
+  identifier: "eclipse"
 governance:
   boardSize: "16"
   boardType: "sponsor, elected"

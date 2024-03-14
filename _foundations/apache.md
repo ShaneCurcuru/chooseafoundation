@@ -18,7 +18,7 @@ sidebar:
       <br/><br/>
       Accepts New Projects: Yes  
       <br/><br/>
-      Data Last Updated: August, 2017
+      Data Last Updated: March, 2024
 
 core:
   newProjects: "yes"
@@ -29,6 +29,7 @@ core:
   softwareType: "various"
   licenses: "Apache-2.0"
   copyrightPolicy: "CLA"
+  identifier: "asf"
 governance:
   boardSize: "9"
   boardType: "elected"
@@ -38,13 +39,13 @@ governance:
   employees: "7"
 finance:
   funding: "sponsors, donors"
-  budgetUSD: "1.3M"
+  budgetUSD: "2.1M"
   budgetURL: "https://whimsy.apache.org/board/minutes/Budget.html"
   sponsorURL: "https://www.apache.org/foundation/thanks.html"
-  sponsorList: "Cloudera, Comcast, Facebook, Google, Leaseweb, Microsoft, Pivotal, Yahoo!"
+  sponsorList: "AWS, Google, Apple, Microsoft, Huawei, Yahoo!, Facebook"
 brand:
   primary: "Apache"
-  secondary: "various projects - 180+"
+  secondary: "various projects - 200+"
   registered: "yes"
   logo: "https://www.apache.org/foundation/press/kit/asf_logo.svg"
   logoRegistered: "no"
@@ -52,9 +53,9 @@ brand:
   useURL: "https://www.apache.org/foundation/marks/guide"
   comments: "Consistent policy requires use of full *Apache ProjectName* form, and allows free use of Powered By format."
 projects:
-  total: "180"
+  total: "200"
   governance: "The Apache Way, with open and independent governance is required, and the ASF board oversees quarterly project reports directly."
-  notable: "Hadoop, OpenOffice, Lucene, Maven"
+  notable: "Cassandra, OpenOffice, Lucene, Superset, Airflow"
   listURL: "https://projects.apache.org"
   services: "Core infrastructure, legal, branding, and press services are provided by the ASF to all projects; some level of directed sponsorship under Apache-wide policies is allowed."
 

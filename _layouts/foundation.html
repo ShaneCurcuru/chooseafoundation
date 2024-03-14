@@ -59,6 +59,7 @@ layout: default
           <tbody>
             <tr>
               <td>
+                {% if page.core.identifier %}<p><abbr title="Comprehensive Metadata Listing.">Full Metadata Listing</abbr>: <a href="https://fossfoundation.info/foundations/{{ page.core.identifier }}">FOSSFoundation.info/foundations/{{ page.core.identifier }}</a></p>{% endif %}
                 {% if page.core.url %}<p><abbr title="URL of organization homepage.">Website</abbr>: <a href="{{ page.core.url }}">{{ page.core.url }}</a></p>{% endif %}
                 {% if page.core.legalName %}<p><abbr title="The official name of the organization, e.g. the registered company name.">Legal Name</abbr>: {{ page.core.legalName }}</p>{% endif %}
                 {% if page.core.description %}<p><abbr title="Brief description of the group or organization as a whole.">Description</abbr>: {{ page.core.description }}</p>{% endif %}

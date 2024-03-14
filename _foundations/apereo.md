@@ -29,6 +29,7 @@ core:
   softwareType: "various"
   licenses: "Apache-2.0, ECL-2.0"
   copyrightPolicy: "CLA"
+  identifier: "apereo"
 governance:
   boardSize: "15"
   boardType: "elected, appointed"

@@ -29,6 +29,7 @@ core:
   softwareType: "various"
   licenses: "various, GPL"
   copyrightPolicy: ""
+  identifier: "sfc"
 governance:
   boardSize: "6"
   boardType: "appointed"

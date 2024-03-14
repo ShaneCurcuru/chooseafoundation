@@ -29,6 +29,7 @@ core:
   softwareType: "various"
   licenses: "GPL, various"
   copyrightPolicy: ""
+  identifier: "spi"
 governance:
   boardSize: "9"
   boardType: "elected"

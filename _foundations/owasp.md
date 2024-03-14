@@ -29,6 +29,7 @@ core:
   softwareType: "security"
   licenses: "various"
   copyrightPolicy: "CLA"
+  identifier: "owasp"
 governance:
   boardSize: "7"
   boardType: "elected"
